@@ -6,7 +6,7 @@
 /*   By: dsoroko <dsoroko@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/04/05 10:28:43 by dsoroko           #+#    #+#             */
-/*   Updated: 2022/09/20 12:00:42 by dsoroko          ###   ########.fr       */
+/*   Updated: 2022/09/22 14:12:52 by dsoroko          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 # include <stdlib.h>
 # include <unistd.h>
 
-int			ft_atoi(const char *str);
+int			ft_atoi(char *str);
 long long	ft_atol(const char	*str);
 void		ft_bzero(void *s, size_t n);
 void		*ft_calloc(size_t count, size_t size);

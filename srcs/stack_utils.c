@@ -6,7 +6,7 @@
 /*   By: dsoroko <dsoroko@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/20 10:27:22 by dsoroko           #+#    #+#             */
-/*   Updated: 2022/09/22 11:16:30 by dsoroko          ###   ########.fr       */
+/*   Updated: 2022/09/22 12:29:36 by dsoroko          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,6 +65,8 @@ int	is_sorted(t_data **stack)
 	}
 	return (1);
 }
+
+// gets distance between node and searched index
 
 int	get_node_distance(t_data **stack, int index)
 {

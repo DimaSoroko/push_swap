@@ -91,7 +91,8 @@ HEADER			 = -Iincludes -I./libft.h 												# adds headers
 
 LIBFT 			 = make -C libft/														# compiling Libft
 
-NORM 			 =  @norminette 														# checking the norm
+NORM 			 =  @norminette 														# checking the norm 
+
 
 # -------------------------------------------------------------------- RULES -------------------------------------------------------------------------------------------
 
@@ -101,6 +102,7 @@ NORM 			 =  @norminette 														# checking the norm
 all:	    $(NAME)   																	# will execute NAME rule
 		
 $(NAME):	$(OBJS)
+			$(NORM)
 			@echo $(BGreen)√$(Color_Off)$(BBlue)Norm is OK!$(Color_Off);
 			@$(LIBFT)
 			@$(CC) $(OBJS) ./libft/libft.a -o $(NAME)

@@ -115,9 +115,8 @@ SOURCES			= 	ft_atoi.c \
 					ft_strtrim.c \
 					ft_substr.c \
                 	ft_tolower.c \
-					ft_toupper.c 
-			
-BONUS_SOURCES	=	ft_lstadd_back.c \
+					ft_toupper.c \
+				    ft_lstadd_back.c \
 					ft_lstadd_front.c \
 					ft_lstclear.c \
 					ft_lstdelone.c \
@@ -129,7 +128,6 @@ BONUS_SOURCES	=	ft_lstadd_back.c \
 
 OBJS	   		 = $(SOURCES:.c=.o)       	 										# trasnforms all the ".c" files into ".o" (objects)
 
-BONUS_OBJS		 = $(BONUS_SOURCES:.c=.o) 
 # -------------------------------------------------------------------- RULES -------------------------------------------------------------------------------------------
 
 .c.o:		

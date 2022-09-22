@@ -6,7 +6,7 @@
 /*   By: dsoroko <dsoroko@student.s19.be>           +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/09/19 13:56:27 by dsoroko           #+#    #+#             */
-/*   Updated: 2022/09/22 11:01:14 by dsoroko          ###   ########.fr       */
+/*   Updated: 2022/09/22 12:57:46 by dsoroko          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,8 +24,8 @@ static	void	sort_stack(t_data **stack_a, t_data **stack_b)
 
 int	main(int argc, char **argv)
 {
-	t_data **stack_a;
-	t_data **stack_b;
+	t_data	**stack_a;
+	t_data	**stack_b;
 
 	if (argc < 2)
 		return (0);
