@@ -18,34 +18,6 @@ void	ft_exit(char *msg)
 	exit(EXIT_FAILURE);
 }
 
-// int	ft_atoi(const char *str)
-// {
-// 	unsigned long long	result;
-// 	int					i;
-// 	int					sign;
-
-// 	result = 0;
-// 	i = 0;
-// 	sign = 1;
-// 	while (str[i] == ' ' || str[i] == '\n' || str[i] == '\r'
-// 		|| str[i] == '\t' || str[i] == '\v' || str[i] == '\f')
-// 		i++;
-// 	if (str[i] == '-' && !str[i + 1])
-// 		error("wrong arguments");
-// 	if (str[i] == '-')
-// 	{
-// 		if (str[i] == '-')
-// 			sign = -1;
-// 		i++;
-// 	}
-// 	while (str[i] && str[i] >= '0' && str[i] <= '9')
-// 	{
-// 		result = result * 10 + str[i] - '0';
-// 		i++;
-// 	}
-// 	return (result);
-// }
-
 int	ft_isspace(char c)
 {
 	if (c == ' ' || c == '\t' || c == '\n'
